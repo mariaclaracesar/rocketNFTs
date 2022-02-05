@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url('assets/background.svg');
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* LOGO */
+
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+/* TEXTO PRINCIPAL */
+#texto-principal {
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--text-color);
+}
+
+span {
+  color: var(--color-logo);
+}
+
+nav {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  color: var(--text-color);
+
+  margin-top: 57px;
+}
+
+nav ul li {
+  text-align: center;
+  list-style: none;
+}
+
+container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.section .title {
+  margin-bottom: 1rem;
+}
+
+.section header {
+  margin-bottom: 4rem;
+}
+
+/* IMAGENS */
+
+#grupo-img-1 {
+  display: flex;
+  position: relative;
+}
+
+#grupo-img-2 {
+  display: flex;
+  position: relative;
+}
