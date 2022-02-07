@@ -23,25 +23,26 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* LOGO */
+.container {
+  margin-top: 57px;
+}
 
+/* LOGO */
 .logo {
   font-weight: bold;
   font-size: 40px;
-  color: var(--text-color);
-}
 
-/* TEXTO PRINCIPAL */
-#texto-principal {
-  font-weight: bold;
-  font-size: 50px;
-  color: var(--text-color);
+  margin: 82px;
+
+  color: blueviolet; /* cores ilustrativasssss */
+  /* color: var(--text-color); */
 }
 
 span {
   color: var(--color-logo);
 }
 
+/* MENU */
 nav {
   height: 4.5rem;
   display: flex;
@@ -59,32 +60,38 @@ nav ul li {
   list-style: none;
 }
 
-container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .grid {
-  display: grid;
-  gap: 2rem;
-}
+  color: rgb(238, 20, 122); /* cores ilustrativasssss */
 
-.section .title {
-  margin-bottom: 1rem;
-}
-
-.section header {
-  margin-bottom: 4rem;
-}
-
-/* IMAGENS */
-
-#grupo-img-1 {
   display: flex;
-  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
 }
 
-#grupo-img-2 {
+.title {
+  margin: 60px;
+
   display: flex;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
+/* 
+.grid-2 {
+  color: crimson;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+}
+
+.title-box {
+  margin: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
