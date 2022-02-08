@@ -19,79 +19,152 @@
 }
 
 body {
-  background-image: url('assets/background.svg');
+  background-color: var(--body-background);
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-  margin-top: 57px;
+.main1 {
+  height: 100%;
+  width: 100vw;
+  
+  background-image: url('assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  padding: 52px 81px 0px
 }
 
-/* LOGO */
-.logo {
-  font-weight: bold;
-  font-size: 40px;
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  margin: 82px;
-
-  color: blueviolet; /* cores ilustrativasssss */
-  /* color: var(--text-color); */
+  height: 50px;
 }
 
-span {
+#header ul {
+  width: 341px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#header ul li {
+  list-style-type: none;
+}
+
+#header ul li a {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#header #button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 50px;
+
+  background-color: var(--text-color);
+
+  border: none;
+}
+
+#header #button:hover {
+  cursor: pointer;
+}
+
+#header #button img {
+  margin-right: 15px;
+}
+
+#header #button p {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#main-content1 {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 97px;
+
+  height: 246px;
+}
+
+#main-content1 #main-description1 #description p{
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+#main-content1 #main-description1 #avatars{
+  margin-top: 55px;
+  display: flex;
+}
+
+#main-content1 #main-description1 #avatars #texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#main-content1 #main-description1 #avatars p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  
+  margin-left: 6px;
+}
+
+#main-content1 #main-description1 #avatars #main1-text1{
+  font-weight: 700;
+}
+
+#main-content1 #main-description2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+#main-content1 #main-description2 p {
+  color: var(--text-color);
+}
+
+#main-content1 #main-description2 span {
   color: var(--color-logo);
 }
 
-/* MENU */
-nav {
-  height: 4.5rem;
+#main-content1 #main-description3 {
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+#main-images {
+  margin-top: 100px;
+}
+
+#main-images #row1, #row2{
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-
-  color: var(--text-color);
-
-  margin-top: 57px;
-}
-
-nav ul li {
-  text-align: center;
-  list-style: none;
-}
-
-.grid {
-  color: rgb(238, 20, 122); /* cores ilustrativasssss */
-
-  display: flex;
   align-items: center;
-  justify-content: center;
-
-  list-style: none;
 }
 
-.title {
-  margin: 60px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* 
-.grid-2 {
-  color: crimson;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  list-style: none;
+#main-images #row2{
+  margin-top: 60px;
 }
 
-.title-box {
-  margin: 60px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+#main-images image{
+  width: 307px;
+  height: 197px;
+}
