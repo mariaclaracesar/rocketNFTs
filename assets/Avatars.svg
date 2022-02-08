@@ -2,7 +2,7 @@
 <rect x="74" y="1" width="95" height="86" rx="43" fill="url(#pattern0)"/>
 <rect x="57" y="1" width="95" height="86" rx="43" fill="url(#pattern1)"/>
 <rect x="26" width="95" height="87" rx="43.5" fill="url(#pattern2)"/>
-<path d="M0 43C0 19.2518 19.2518 0 43 0H52C75.7482 0 95 19.2518 95 43V43C95 66.7482 75.7482 86 52 86H43C19.2518 86 0 66.7482 0 43V43Z" fill="url(#pattern3)"/>
+<path d="M0 43C0 19.2518 19.2518 0 43 0H52C75.7482 0 95 19.2518 95 43C95 66.7482 75.7482 86 52 86H43C19.2518 86 0 66.7482 0 43Z" fill="url(#pattern3)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_103_61" transform="translate(0 -0.0523256) scale(0.001 0.00110465)"/>
