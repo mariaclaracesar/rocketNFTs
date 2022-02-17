@@ -265,32 +265,63 @@ span {
 }
 
 /* TERCEIRA PAGINA */
+/* CLASS . / ID # */
 .main3 {
   height: 937px;
-  width: 1266px;
-
   display: flex;
 }
 
 #first-text {
+  color: var(--text-color);
   font-weight: bold;
-  font-size: 50px;
-  line-height: 61px;
+  font-size: 35px;
 
-  margin: 150px;
+  margin: 150px 0 0 87px;
+  height: 47px;
 }
 
-#first-text p {
+.astronautas1-3 {
+  margin-top: 355px;
+
+  position: absolute;
+  left: 87px;
+}
+
+.astronautas2-4 {
+  margin-top: 355px;
+
+  position: absolute;
+  left: 1300px;
+}
+
+.title-astronauta {
   color: var(--text-color);
+  font-size: 30px;
 }
 
-#astrounautas1-3 {
-}
-
-.astrounautas1-3 #austronauta1 p {
-  color: var(--text-color);
-}
-
-.astrounautas1-3 #austronauta1 subtitle {
+#subtitle-astro1,
+#subtitle-astro2,
+#subtitle-astro3,
+#subtitle-astro4 {
   color: var(--subtitle-color);
+  font-size: 20px;
+}
+
+#astronauta3 {
+  margin-top: 63px;
+}
+
+#astronauta4 {
+  margin-top: 63px;
+}
+
+/* LINHA */
+
+#linha-vertical {
+  position: absolute;
+  left: 900px;
+
+  margin-top: 368px;
+  height: 718px;
+  border-right: 1px solid var(--subtitle-color);
 }
